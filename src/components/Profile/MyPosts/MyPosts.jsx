@@ -4,7 +4,12 @@ import Post from "./Post/Post";
 
 function MyPosts() {
    return (
-      <div> My Post
+      <div className={styles.container}>
+         <div className={styles.myPosts}>My Posts</div>
+         <div className={styles.textarea__container}>
+            <textarea className={styles.textarea} name="textarea" placeholder="Post text"></textarea>
+         </div>
+         <button className={styles.addPost}>Add Post</button>
          <Post />
       </div>
    )

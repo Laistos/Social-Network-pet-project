@@ -4,11 +4,11 @@ import MyPosts from "./MyPosts/MyPosts";
 
 function Profile() {
    return (
-      <div className={styles.content}>
-         <div>
+      <div className={styles.container}>
+         <div className={styles.image__container}>
             <img className={styles.image} src='https://cdna.artstation.com/p/assets/images/images/035/810/886/large/void-2k.jpg?1615965119' alt='' />
          </div>
-         <div>
+         <div className={styles.description}>
             ava + description
          </div>
          <MyPosts />

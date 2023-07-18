@@ -1,9 +1,18 @@
-.content {
-   grid-area: content;
-   background-color: orange;
+.container{
+   padding-left: 15px;
+}
+
+.image__container{
+   text-align: center;
+   padding-top: 15px;
 }
 
 .image{
-   width: 1000px;
-   height: 500px;
+   width: 1100px;
+   height: 550px;
+}
+
+.description{
+   margin-top: 15px;
+   padding-left: 10px;
 }
