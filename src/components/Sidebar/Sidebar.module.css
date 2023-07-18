@@ -1,4 +1,9 @@
 .sidebar {
    grid-area: nav;
    background-color: yellow;
- }
+};
+a {
+  text-decoration: none;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
